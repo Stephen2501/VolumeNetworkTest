@@ -1,0 +1,9 @@
+.display {
+    display: block;
+    margin-bottom: 5rem;
+}
+
+.display .no-cell {
+    opacity: .4;
+    font-style: italic;
+}

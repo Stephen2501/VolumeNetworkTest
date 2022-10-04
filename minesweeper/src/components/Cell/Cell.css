@@ -1,0 +1,31 @@
+.board-cell {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    height: 50px;
+    width: 50px;
+    margin: 1px;
+
+    background: #343942;
+    border: 5px solid #454950;
+    border-top-color: #6d7075;
+    border-left-color: #6d7075;
+}
+
+.board-cell.clickable:hover {
+    background: #5c5b61;
+    border: 5px solid #6d7075;
+    border-top-color: #454950;
+    border-left-color: #454950;
+    cursor: pointer;
+}
+
+.board-cell.selected {
+    background: #003820;
+    border: 5px solid #455048;
+    border-top-color: #6d756e;
+    border-left-color: #6d756f;
+}

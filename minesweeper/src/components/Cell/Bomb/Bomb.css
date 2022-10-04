@@ -1,0 +1,66 @@
+.bomb-background {
+    position: absolute;    
+    height: 100%;
+    width: 100%;
+    background-color: #5c5b61;
+}
+
+.bomb-body {
+    background: #0f0101;
+    border: 1px solid #0f0101;
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;    
+    box-shadow: 0 0 20px 3px #9d9da1;
+}
+
+.bomb-antenna {
+    border-color: #0f0101;
+    border-style: solid;
+}
+
+.bomb-antenna.h {
+    position: absolute;
+    border-top-width: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+}
+
+.bomb-antenna.v {
+    position: absolute;
+    border-left-width: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 60%;
+}
+
+.bomb-antenna.x1 {
+    position: absolute;
+    border-left-width: 5px;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    height: 60%;
+}
+
+.bomb-antenna.x2 {
+    position: absolute;
+    border-left-width: 5px;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+    height: 60%;
+}
+
+.bomb-glow {
+    position: absolute;
+    border-left-width: 5px;
+    border-radius: 50%;
+    height: 1px;
+    width: 1px;
+    box-shadow: -5px -4px 7px 6px #ffffff40;
+}
+
