@@ -58,7 +58,7 @@ export const neighbors = (b: Board, [x, y]: Coords): Coords[] => {
  * @param b The board
  * @param tuple A tuple [x, y] where x indicates 
  * @returns The number of bombs in the neighbors of the given coordinates
- */
+ */ 
 export const neighborBombCount = (b: Board, [x, y]: number[]): number => {
     // TO DO: Get the number of bombs in the neighbors
     let count = 0
